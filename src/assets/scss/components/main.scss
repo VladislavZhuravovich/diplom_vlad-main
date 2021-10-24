@@ -1,51 +1,53 @@
 .section-first{
     // background-image: url(/src/assets/imgs/section.jpg);
-    .fon{
+    display: flex;
+    justify-content: space-around;
+    .imgs{
         height: 435px;
     }
 
-    .button{
-        position: absolute;
+    button{
         height: 48px;
         background: #B45F4D;
         border-radius: 0px;
+        margin-top: 332px;
     
         p{
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
             font-size: 17px;
-            line-height: 29px;
             color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 0px;
         }
     }
 }
 
 .section-text{
+    background-color: #A9AE8D;
     p{
         font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    text-transform: uppercase;
-    color: #F6F4EC;
+        font-size: 18px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F6F4EC;
+        padding-top: 70px;
+        padding-left: 70px;
     }
 
     h2{
         font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 33px;
-    line-height: 64px;
-    color: #F6F4EC;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 64px;
+        color: #F6F4EC;
+        padding-left: 70px;
+        margin: 0px;
     }
 
-    a{font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 27px;
-    color: #F6F4EC;
+    p.last{
+        color: #F6F4EC;
+        padding-left: 70px;
+        padding-bottom: 70px;
+        margin: 0px;
     }
+
 }
