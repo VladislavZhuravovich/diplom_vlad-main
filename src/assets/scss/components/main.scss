@@ -1,14 +1,51 @@
-.section-main{
+.section-first{
     // background-image: url(/src/assets/imgs/section.jpg);
-    .fon{height: 435px;}
+    .fon{
+        height: 435px;
+    }
 
     .button{
         position: absolute;
         height: 48px;
-        left: 0%;
-        right: 0%;
-        top: 0px;
         background: #B45F4D;
         border-radius: 0px;
+    
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.section-text{
+    p{
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F6F4EC;
+    }
+
+    h2{
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 64px;
+    color: #F6F4EC;
+    }
+
+    a{font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F6F4EC;
     }
 }
