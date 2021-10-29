@@ -1,8 +1,6 @@
-// пример миксина
-@mixin title() {
-    color: red;
-    font-size: 36px;
-    line-height: 42px;
-    margin: 0 0 1rem;
+
+@mixin card {
+    height: 643.16px;
+    left: 33.57%;
+    right: 61%;
 }
-  
