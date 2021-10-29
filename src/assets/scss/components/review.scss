@@ -1,0 +1,38 @@
+.review{
+    
+    
+    .container{
+        background-color:#F1D3B9;
+        .review-main{}
+        .review-yet{}
+        .review-text{
+            width: 518px;
+            height: 582px;
+            background: #F8F8F8;
+            border-radius: 0px;
+
+            h4{
+                font-family: Roboto;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 58px;
+                color: #B45F4D;
+            }
+            p{
+                font-family: Roboto;
+                font-size: 19px;
+                line-height: 30px;
+                color: #B45F4D;
+            }
+
+            p.yet{
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+           
+        
+        
+    }
+}
