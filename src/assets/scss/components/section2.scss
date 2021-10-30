@@ -1,14 +1,16 @@
 .section2 {
-    background: url(../../imgs/section2.png);
+    background: url(../imgs/section2.png);
     width: 1220px;
     height: 414px;
+    margin:0 auto 50px;
 
     .section2-content{
         height: 92px;
         background-color: #DF9B7A;
         display: flex;
         justify-content: space-between;
-        align-items: center;    
+        align-items: center;
+        padding: 0 30px;  
 
         p  {
             font-family: Roboto;
